@@ -1,0 +1,29 @@
+.input {
+  display: block;
+  width: 100%;
+  padding: 1rem 2rem;
+  font-size: 1.5rem;
+  font-weight: bold;
+  background: white;
+  transition: all 400ms ease-in-out;
+  border-bottom: 1px solid transparent;
+  color: black;
+
+  &:focus {
+    border-bottom: 1px solid black;
+    outline: none;
+  }
+
+  &:focus::placeholder {
+    color: transparent;
+  }
+
+  &--small {
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+  }
+
+  &--center {
+    text-align: center;
+  }
+}
